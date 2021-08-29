@@ -1,0 +1,32 @@
+!!python/object:GAME.assignment.Assignment
+assignmentName: null
+assignment_num: 0
+candidate_questions:
+- A0Q0
+compilers:
+- pdflatex
+- pdflatex
+feedbacks: null
+fromTexFile: false
+mark: null
+markingSchem:
+  name:
+  - HD
+  - D
+  - C
+  - P
+  - N
+  ub:
+  - 79.999999999
+  - 69.999999999
+  - 59.999999999
+  - 49.999999999
+  - 0
+marks: []
+name: Deadline August 6, 5 PM
+question_db: /home/valentijn/CAAM_Public/GAME_database/
+question_qids:
+- A0Q0
+questions: []
+returnLetterMark: false
+studentID: 29356717

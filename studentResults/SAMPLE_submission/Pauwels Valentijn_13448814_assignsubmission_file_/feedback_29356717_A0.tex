@@ -1,0 +1,107 @@
+\documentclass[a4paper,12pt]{CURSUS}
+
+\usepackage[english]{babel}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{times}
+\usepackage{fancyhdr}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+
+\textwidth 16.5cm
+\textheight 23cm
+\marginparwidth 0cm
+\topmargin 0.54cm
+\oddsidemargin 0cm
+\evensidemargin 0cm
+\parindent 0pt
+\parskip 5mm
+\headsep 0cm
+\footskip 2cm
+\flushbottom
+
+\newcommand{\BE}{\begin{equation}}
+\newcommand{\EE}{\end{equation}}
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BN}{\begin{enumerate}}
+\newcommand{\EN}{\end{enumerate}}
+\newcommand{\D}{\displaystyle}
+
+\renewcommand {\baselinestretch}{1.2}
+
+\renewcommand{\headrulewidth}{0mm}
+\renewcommand{\footrulewidth}{0.2mm}
+
+\pagestyle{fancy}
+\addtolength{\headwidth}{4mm}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancypagestyle{plain}{
+\fancyhead[R,L]{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[C,L]{}}
+\fancyhead[R,L,C]{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[C,L]{}
+
+\begin{document}
+
+\addtocounter{chapter}{-1}
+\renewcommand{\chaptername}{Practice Class Assignment}
+\chapter{Deadline August 6, 5 PM}
+
+ Feedback for A0Q0
+
+ The correct distribution type is F.
+
+ The correct H0 hypothesized variable is sigma(A)/sigma(B).
+
+ The correct H0 sign is $>$=.
+
+ The correct H0 hypothesized value is 1
+
+ The correct H1 hypothesized variable is sigma(A)/sigma(B).
+
+ The correct H1 sign is $<$.
+
+ The correct H1 hypothesized value is 1
+
+ The correct test value is 0.6721045369694018
+
+ The correct critical value is 0.46645402121644747
+
+ The conclusion is correct.
+
+
+ 
+
+
+
+ -----------------------------
+
+
+ The question states that we need a flow that is consistently as close as possible to 237.7 ampere, so we are testing for variances.  We need to do an F-test, and the hypotheses are :
+
+ H$_0:\sigma_A/\sigma_B \geq 1$
+
+ H$_1:\sigma_A/\sigma_B < 1$
+
+ We calculate the test value as follows:\begin{equation}F_{calc}=\displaystyle \frac{\sigma_1^2}{\sigma_2^2} = \displaystyle \frac{(9.1)^2}{(11.1)^2}=0.6721\end{equation}
+
+ We have a left-tail test, so we need $\alpha$ of the mass in the left tail.  In Excel (or Open Office Calc) f.inv(0.05,19,21) results in a critical value of 0.4665.  This means that we are not in the rejection region, and we accept the Null Hypothesis.  The conclusion is that the Generator A does not work significantly better than Generator B.
+
+ Mark for this part = 10.0\%
+
+  \noindent\rule{8cm}{0.4pt} 
+
+  \noindent\rule{8cm}{0.4pt} 
+
+ \textbf{Total mark = 10.0}
+
+  \noindent\rule{8cm}{0.4pt} 
+
+
+\end{document}

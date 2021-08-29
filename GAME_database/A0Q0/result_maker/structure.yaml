@@ -1,0 +1,122 @@
+calczort:
+  location:
+  - 5
+  - 1
+  options: []
+  title: Test Z, t, or F
+  type: textBox
+  withTitle: true
+conclusion:
+  location:
+  - 6
+  - 3
+  options:
+  - Retain H0
+  - Reject H0
+  title: Conclusion
+  type: dropDown
+  withTitle: true
+distributiontype:
+  location:
+  - 4
+  - 1
+  options:
+  - Z
+  - t-student
+  - F
+  title: Distribution type
+  type: dropDown
+  withTitle: true
+h0:
+  location:
+  - 1
+  - 2
+  options: &id001
+  - '>'
+  - <
+  - '>='
+  - <=
+  - '='
+  - not equal to
+  title: ''
+  type: dropDown
+  withTitle: false
+h0value:
+  location:
+  - 1
+  - 3
+  options: []
+  title: H0_value
+  type: textBox
+  withTitle: false
+h0variable:
+  location:
+  - 1
+  - 1
+  options: &id002
+  - mu
+  - sigma
+  - mu(A) - mu(B)
+  - sigma(A)/sigma(B)
+  title: H0
+  type: dropDown
+  withTitle: true
+h1:
+  location:
+  - 2
+  - 2
+  options: *id001
+  title: ''
+  type: dropDown
+  withTitle: false
+h1value:
+  location:
+  - 2
+  - 3
+  options: []
+  title: H1_value
+  type: textBox
+  withTitle: false
+h1variable:
+  location:
+  - 2
+  - 1
+  options: *id002
+  title: H1
+  type: dropDown
+  withTitle: true
+tablezort:
+  location:
+  - 5
+  - 3
+  options: []
+  title: Critical Z, t, or F
+  type: textBox
+  withTitle: true
+vl1:
+  location:
+  - 0
+  - 0
+  options:
+  - 10
+  title: vl1
+  type: vl
+  withTitle: false
+vl2:
+  location:
+  - 3
+  - 0
+  options:
+  - 10
+  title: vl3
+  type: vl
+  withTitle: false
+vl3:
+  location:
+  - 7
+  - 0
+  options:
+  - 10
+  title: vl3
+  type: vl
+  withTitle: false

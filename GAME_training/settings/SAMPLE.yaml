@@ -1,0 +1,32 @@
+assignmentNum: 0
+assignmnetTitle: 'Deadline August 6, 5 PM'
+basePath: '/home/valentijn/CAAM_Public/'
+
+questionDatabaseDirectory: 'GAME_database/'
+
+questionList:
+- A0Q0
+
+assginmentMasterDirectory: 'GAME_output_new/SAMPLE/'
+resultDirectory: 'studentResults/SAMPLE_submission/'
+
+
+studentIDListFile: 'GAME_training/settings/Grades-SAMPLE.csv'
+
+marksOutputPath: 'studentResults/SAMPLE_marks.csv'
+
+
+assginmentSubsetDirectory: 
+  enabled: True
+  suffix: 'to_moodle'
+  filesToBePassed:
+    - 'Assignment*.pdf'
+  staticFiles:
+    - 'GAME_database/A0Q0/result_maker/SAMPLE_GUI.html'
+
+feedbackSubsetDirectory: 
+  enabled: True
+  suffix: 'feedback_to_moodle'
+  filesToBePassed:
+    - 'feedback*.pdf'
+    

@@ -1,0 +1,11 @@
+,0
+h0variable,mu
+h0,>
+h0value, 
+h1variable,mu
+h1,>
+h1value, 
+distributiontype,Z
+calczort, 
+tablezort, 
+conclusion,Retain H0
